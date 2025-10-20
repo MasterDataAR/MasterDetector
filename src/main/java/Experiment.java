@@ -168,6 +168,10 @@ public class Experiment {
     }
 
     public static void recordFile(String string, String type) throws Exception {
+        File resultsDir = new File("./results");
+        if (!resultsDir.exists()) {
+            resultsDir.mkdirs(); 
+        }
         FileWriter fileWritter = new FileWriter("./results/exp" + type + ".txt", true);
         BufferedWriter bw = new BufferedWriter(fileWritter);
         bw.write(string);
