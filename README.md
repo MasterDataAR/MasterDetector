@@ -1,6 +1,6 @@
-# MasterDetector
+# ARM: Auto-regression and Master data Guided Repairing
 
-Our study on anomaly detection with error repairing by master data in multivariate time series.
+Our study on anomaly detection with error cleaning by master data in multivariate time series.
 
 ## Directory Structure
 
@@ -37,4 +37,4 @@ Our study on anomaly detection with error repairing by master data in multivaria
 The proposed methods have been deployed as a function in Apache IoTDB for anomaly detection with data repairing.
 
 * [Introduction document](https://iotdb.apache.org/UserGuide/latest/SQL-Manual/UDF-Libraries_apache.html#masterdetect)
-* [GitHub repository](https://github.com/apache/iotdb/tree/research/master-detector)
+* [GitHub repository](https://github.com/apache/iotdb/tree/research/master-detector/library-udf/src/main/java/org/apache/iotdb/library/anomaly)
